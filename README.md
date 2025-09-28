@@ -1,61 +1,229 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Laravel Coffee Shop Lab
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project is a **step-by-step Laravel Lab** designed to help students learn how to build a complete Laravel application from scratch. A part of [Advanced Web Development - CSB35050](https://docs.google.com/document/d/1jWUGN0ePdt4_Mx--ZT9UvC19EsemxtyYdjH2c7mggjc) course.
+The lab simulates a simple **Coffee Shop** system where learners gradually implement database design, APIs, user interface, security, and testing.
 
-## About Laravel
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/7b6575b7-3097-4ab3-96b8-263f3dbf0624)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> If you're new to PHP or Laravel, it's recommended to review the [PHP for Beginners (2023 Edition)](https://www.youtube.com/watch?v=U2lQWR6uIuo&list=PL3VM-unCzF8ipG50KDjnzhugceoSG3RTC) before starting the lab.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📌 Overview
 
-## Learning Laravel
+- **Framework:** Laravel version 12
+- **Project Type:** Coffee Shop Application  
+- **Goal:** Learn Laravel fundamentals through a guided hands-on project  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The lab is divided into **following sections**, each focusing on a core aspect of web application development.  
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📖 Sections
 
-## Laravel Sponsors
+### Section 1 – Working with Database
+Learn how to:
+- Configure database connection
+- Define migrations and seeders
+- Work with Eloquent models
+- Establish relationships between entities
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+👉 [Detailed Guide for Section 1](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g2928d8f033d_0_90#slide=id.g2928d8f033d_0_90)
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Section 2 – Build a REST API
+Learn how to:
+- Define API routes
+- Implement controllers and services
+- Return JSON responses
+- Handle API resource transformations
 
-## Contributing
+👉 [Detailed Guide for Section 2](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g2928d8f033d_0_103#slide=id.g2928d8f033d_0_103)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+### Section 3 – Error Handling & Logging
+Learn how to:
+- Manage exceptions
+- Customize error pages
+- Configure logging channels
+- Debug common issues
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+👉 [Detailed Guide for Section 3](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g2953383ad5d_0_0#slide=id.g2953383ad5d_0_0)
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Section 4 – Build the User Interface
+**Part 1: Build the Homepage**  
+**Part 2: Build the Add to Cart**  
+**Part 3: Build the Checkout Process**  
+**Part 4: Multiple Languages Support**
 
-## License
+Learn how to:
+- Build Blade templates
+- Implement shopping cart logic
+- Create a checkout workflow
+- Add i18n (multi-language support)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+👉 [Detailed Guide for Section 4](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g2928d8f033d_0_153#slide=id.g2928d8f033d_0_153)
+
+---
+
+### Section 5 – Testing
+Learn how to:
+- Write unit tests for models and services
+- Create feature tests for APIs and UI
+- Use Laravel’s testing utilities
+- Ensure application reliability
+
+👉 [Detailed Guide for Section 5](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g25ceb007f0a_0_0#slide=id.g25ceb007f0a_0_0)
+
+---
+
+### Section 6 – Security
+**Part 1: Implement Authentication Features**  
+**Part 2: User Profile Feature**  
+**Part 3: Two Factor Authentication (2FA)**  
+**Part 4: Secure API Routes with API Token**  
+**Part 5: Update UI Navigation Links and Dashboard**
+
+Learn how to:
+- Implement authentication and authorization
+- Build secure user profile management
+- Enable 2FA for enhanced security
+- Protect API endpoints with tokens
+- Improve UI with authenticated navigation
+
+👉 [Detailed Guide for Section 6](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g2928d8f033d_0_136#slide=id.g2928d8f033d_0_136)
+
+---
+
+## 🚀 Outcome
+By completing this lab, students will have learned how to:
+- Design and connect databases in Laravel  
+- Build and secure REST APIs  
+- Develop a dynamic UI with Blade and localization  
+- Implement authentication and authorization  
+- Write automated tests  
+- Deploy a secure, fully functional Laravel Coffee Shop application  
+
+---
+
+## 📂 Repository Structure
+```
+.
+├── app/ # Application logic (Models, Controllers, Services)
+├── database/ # Migrations and seeders
+├── resources/views/ # Blade templates
+├── routes/ # Web and API routes
+├── tests/ # Unit and feature tests
+└── ...
+```
+
+## ⚙️ Installation & Setup Final Lab Source Code
+
+### 1. Prerequisites
+Make sure you have the following installed:
+- **PHP ≥ 8.2**
+- **Composer** (dependency manager for PHP)
+- **MySQL** or another supported database
+
+### 2. Pull Source Code
+```bash
+git clone git@github.com:nghuuquyen/coffee-app.git
+```
+
+### 3. Install Dependencies
+```bash
+cd coffee-app
+composer install
+```
+
+### 4. Configure Environment
+```bash
+cp .env.example .env
+```
+Update the `.env` file with your database credentials:
+```
+DB_CONNECTION=mysql
+DB_HOST=
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+```
+Or if you are using SQLite, set it up like this:
+```
+DB_CONNECTION=sqlite
+DB_DATABASE=/absolute/path/to/database.sqlite
+```
+
+### 5. Generate Application Key
+```bash
+php artisan key:generate
+```
+
+### 6. Run Migrations and Seeders
+```bash
+php artisan migrate --seed
+```
+
+### 7. Start the Development Server
+```bash
+php artisan serve
+```
+
+The application will be accessible at `http://localhost:8000`.
+
+## 🖼️ Screenshots
+
+Below are sample screenshots for the Laravel Coffee Shop Lab.
+
+### 1. The Homepage
+The homepage displays a list of coffee products with options to view details and add to cart.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/7b6575b7-3097-4ab3-96b8-263f3dbf0624)
+
+### 2. The Food Detail Popup / Add to Cart Button
+The product detail popup allows users to note options and add items to their cart.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/61e4c03e-ca28-486f-9715-02e69d445377)
+
+### 3. The Bottom Cart Bar
+The bottom cart bar allows users to view their selected items and proceed to checkout.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/df12686e-5507-4cfe-926a-cc1831d0ab22)
+
+### 4. The Checkout Page
+The checkout page enables users to review their order and enter payment information.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/199b1055-2bcd-4c7b-91aa-7ae103eaff3b)
+
+### 5. The Thank You Page
+The thank you page confirms the order has been placed successfully.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/c32f0347-412c-4e53-94e0-873d9e6d5477)
+
+### 6. The Invoice Page
+The invoice page displays the order details and payment information.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/f48a6e54-a16c-4c68-9741-b192024f548f)
+
+### 7. The Email of the Invoice
+The email of the invoice is sent to the user after successful payment.
+![image](https://github.com/nghuuquyen/coffee-app/assets/14355905/2c627a0d-99a7-4f11-8d81-beb83accd845)
+
+### 8. The Profile Page
+The profile page allows users to view and update their personal information.
+![image](https://github.com/user-attachments/assets/f03dadea-5220-4802-954a-6f3417edd68b)
+
+### 9. The API Token Management Page
+The API token management page enables users to create and manage their API tokens for secure access.
+![image](https://github.com/user-attachments/assets/6aa1f0e3-f71a-43b6-8a72-735642415eb0)
+
+## 📝 Notes
+- Follow the detailed guides for each section to complete the lab.
+- Ensure you have a working [knowledge of PHP and basic Laravel concepts](https://docs.google.com/presentation/d/1IQnqzBe-kMASDrICltffJVBc286n-oGAR2o8RrQXOfY/edit?slide=id.g2928d8f033d_0_62#slide=id.g2928d8f033d_0_62).
+- Feel free to reach out if you encounter any issues or have questions.
+- Happy coding and enjoy building your Laravel Coffee Shop application!
+
+
+## 🎉 Conclusion
+Thank you for participating in the Laravel Coffee Shop Lab! By completing this lab, you have gained practical experience in building a full-featured Laravel application. We hope this hands-on approach has solidified your understanding of Laravel and web development concepts. Keep practicing and exploring more advanced topics to further enhance your skills. Happy coding!
+
+Code with ❤️ by [nghuuquyen](https://github.com/nghuuquyen)
